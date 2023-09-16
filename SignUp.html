@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+</head>
+<body>
+    <style>
+        form{
+            margin: 50% 20%;
+        }
+        label{
+            float: right;
+            color: yellow;
+        }
+        input , select ,b{
+            float: left;
+        }
+        table{
+            background-color: rgb(34, 37, 54);
+        }
+    </style>
+    <form>
+        <table cellspacing="0" cellpadding="10">
+            <theader>
+                <tr style="background-color: orange;">
+                    <td colspan="2"><label style="color: yellow;float: none;">Sign Up</label></td>
+                </tr>
+            </theader>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="FirstName"> First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="FirstName" title="FirstNAme" placeholder="Enter First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="LastName"> Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="LastName" title="LastNAme" placeholder="Enter Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Date">Date of Birth</label></td>
+                    <td>
+                        <Select title="Date">
+                            <option value="Date">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </Select>
+                        <select title="Month" style="width: 100px;">
+                            <option value="Month">Month</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select title="Year">
+                            <option value="Year">Year</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" title="Male">
+                        <b style="color: yellow;">Male</b>
+                        <input type="radio" title="Femal">
+                        <b style="color: yellow;">Female</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Coutry </label></td>
+                    <td>
+                        <select title="country">
+                            <option value="Country">Country</option>
+                            <option value="UK">UK</option>
+                            <option value="USA">USA</option>
+                            <option value="KSA">KSA</option>
+                            <option value="YEMEN">YEMEN</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>E-mail</label></td>
+                    <td>
+                        <input type="email" title="Email" placeholder="Enter E-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Phone</label></td>
+                    <td>
+                        <input type="tel" title="Phone" placeholder="Enter Phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password" title="Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" title="ConfirmPassword">
+                    </td>
+                </tr>
+                <tr >
+                    <td></td>
+                    <td> <input type="checkbox" title="gree" style="margin-top: 5px;">
+                        <p style="margin-top: 3px;color: yellow;">I Agree to the Terms of use</p> </td>
+                </tr>
+            </tbody>
+            <tfoot style="background-color: orange;">
+                <tr>
+                    <td colspan="2"  >
+                        <button title="cancel" style="background-color: red;padding: 5px;float: right;margin: 5px;">Cancel</button>
+                        <input type="submit" value="submit" style="background-color: green;padding: 5px;float: right;margin: 5px;">
+                        
+                    </td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
